@@ -31,8 +31,5 @@ let package = Package(
             name: "OpenSSL",
             targets: ["OpenSSL"]
         )
-    ],
-    targets: [
-        .target(name: "OpenSSL")
     ]
 )
